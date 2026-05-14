@@ -331,7 +331,9 @@
       card.className = 'product-card';
 
       card.innerHTML = `
-        <div class="product-image">Product Image</div>
+        <div class=\"product-image\">
+          <img src=\"${product.image}\" alt=\"${product.name}\" style=\"width:100%; height:100%; object-fit:contain; border-radius:10px;\">
+        </div>
         <div class="product-brand">${product.brand} - ${product.category}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-details">Pack: ${product.pack}</div>
