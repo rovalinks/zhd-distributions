@@ -194,6 +194,23 @@
       font-weight: bold;
     }
 
+    #toast {
+      position: fixed;
+      bottom: 90px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #005335;
+      color: white;
+      padding: 14px 22px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      z-index: 9999;
+    }
+
     .floating-order {
       position: fixed;
       bottom: 20px;
@@ -457,10 +474,23 @@ function addToCart(index) {
     qty
   });
 
-  alert('Added to order');
+  showToast();
 
 }
 
+function showToast() {
+
+  const toast =
+    document.getElementById('toast');
+
+  toast.style.opacity = '1';
+
+  setTimeout(() => {
+    toast.style.opacity = '0';
+  }, 2000);
+
+}
+  
 function sendWhatsAppOrder() {
 
   if(cart.length === 0) {
@@ -492,5 +522,9 @@ function sendWhatsAppOrder() {
 
 </script>
 
+<div id="toast">
+  Product added to cart
+</div>
+  
 </body>
 </html>
