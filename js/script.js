@@ -193,12 +193,12 @@ function renderProducts() {
           type="number"
           min="1"
           value="1"
-          id="qty-${index}"
+          id="qty-${product.id}"
         />
 
         <button
           class="add-btn"
-          onclick="addToCart(${index})"
+          onclick="addToCart('${product.id}')"
         >
           Add
         </button>
@@ -215,15 +215,17 @@ function renderProducts() {
 
 searchInput.addEventListener('input', renderProducts);
 
-function addToCart(index) {
+function addToCart(productId) {
+  const product =
+    products.find(p => p.id === productId);
+
   const qty =
-    document.getElementById(`qty-${index}`).value;
+    document.getElementById(`qty-${productId}`).value;
 
   cart.push({
-    ...products[index],
+    ...product,
     qty
   });
-  
   updateCartUI();
   showToast();
 }
@@ -232,7 +234,6 @@ function showToast() {
 
   const toast =
     document.getElementById('toast');
-
   toast.style.opacity = '1';
 
   setTimeout(() => {
