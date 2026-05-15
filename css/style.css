@@ -392,3 +392,20 @@
      opacity: 1;
      pointer-events: auto;
    }
+
+   .stock-in {
+     color: #1e8e3e;
+     font-size: 14px;
+     font-weight: bold;
+   }
+   
+   .stock-out {
+     color: #d93025;
+     font-size: 14px;
+     font-weight: bold;
+   }
+   
+   .add-btn:disabled {
+     background: #999;
+     cursor: not-allowed;
+   }
