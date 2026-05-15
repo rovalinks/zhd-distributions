@@ -50,7 +50,11 @@
 <footer>
   © 2026 ZHD Distributions
 </footer>
-
+  
+<div id="overlay" class="overlay"
+  onclick="toggleCart()">
+</div>
+  
 <div id="cartPanel" class="cart-panel">
   <div class="cart-header">
     <h2>Your Order</h2>
@@ -58,6 +62,20 @@
   </div>
   
   <div id="cartItems" class="cart-items"></div>
+
+  <div class="cart-footer">
+  
+    <div id="cartSummary" class="cart-summary">
+      0 Products Added
+    </div>
+  
+    <button class="clear-cart-btn"
+      onclick="clearCart()">
+      Clear Cart
+    </button>
+  
+   </div>
+  
   <button class="send-order-btn"
     onclick="sendWhatsAppOrder()">
     Send WhatsApp Order
