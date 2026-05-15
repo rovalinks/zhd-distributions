@@ -378,7 +378,7 @@ function sendWhatsAppOrder() {
 
   });
 
-  const phone = '447000000000';
+  const phone = '447867258251';
 
   window.open(
     `https://wa.me/${phone}?text=${message}`,
