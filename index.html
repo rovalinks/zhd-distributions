@@ -258,50 +258,33 @@
 
 <script>
   const products = [
-    {
-      brand: 'Jaimin',
-      category: 'Khakhra',
-      name: 'Plain Khakhra',
-      pack: '20x200g'
-    },
-    {
-      brand: 'Jaimin',
-      category: 'Khakhra',
-      name: 'Jeera Khakhra',
-      pack: '20x200g'
-    },
-    {
-      brand: 'Jaimin',
-      category: 'Snacks',
-      name: 'Dry Fruit Samosa',
-      pack: '12x200g',
-      image: 'images/jaimin-dry-fruit-samosa.png'
-    },
-    {
-      brand: 'Jaimin',
-      category: 'Snacks',
-      name: 'Soya Stick',
-      pack: '12x150g',
-      image: 'images/jaimin-soya-stick.png'
-    },
-    {
-      brand: 'Fiesta',
-      category: 'Frozen',
-      name: 'Plain Roti',
-      pack: '10x15x750g'
-    },
-    {
-      brand: 'Fiesta',
-      category: 'Drinks',
-      name: 'Ginger Beer',
-      pack: '24x330ml'
-    },
-    {
-      brand: 'Dawat',
-      category: 'Rice',
-      name: 'Dawat Basmati Rice',
-      pack: '20kg'
-    }
+    let products = [];
+    let selectedCategory = 'All';
+    let cart = [];
+    
+    fetch('catalog/master_data.csv')
+      .then(response => response.text())
+      .then(csvText => {
+        const rows = csvText.split('\n').slice(1);
+    
+        products = rows
+          .filter(row => row.trim() !== '')
+          .map(row => {
+            const cols = row.split(',');
+    
+            return {
+              id: cols[0]?.trim(),
+              name: cols[1]?.trim(),
+              category: cols[2]?.trim(),
+              brand: cols[3]?.trim(),
+              pack: cols[4]?.trim(),
+              image: `images/${cols[1]?.trim().toLowerCase().replace(/ /g, '-')}.png`
+            };
+          });
+    
+        generateCategories();
+        renderProducts();
+      });
   ];
 
   let selectedCategory = 'All';
