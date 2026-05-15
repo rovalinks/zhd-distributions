@@ -215,19 +215,38 @@ function renderProducts() {
 
 searchInput.addEventListener('input', renderProducts);
 
+
 function addToCart(productId) {
+
   const product =
     products.find(p => p.id === productId);
 
   const qty =
-    document.getElementById(`qty-${productId}`).value;
+    parseInt(
+      document.getElementById(`qty-${productId}`).value
+    );
 
-  cart.push({
-    ...product,
-    qty
-  });
+  const existingItem =
+    cart.find(item => item.id === productId);
+
+  if(existingItem) {
+
+    existingItem.qty =
+      parseInt(existingItem.qty) + qty;
+
+  } else {
+
+    cart.push({
+      ...product,
+      qty
+    });
+
+  }
+
   updateCartUI();
+
   showToast();
+
 }
 
 function showToast() {
