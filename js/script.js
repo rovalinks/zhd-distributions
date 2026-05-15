@@ -42,8 +42,22 @@ function updateCartUI() {
           ${item.name}
         </div>
 
-        <div class="cart-item-qty">
-          Qty: ${item.qty}
+        <div class="cart-item-qty-controls">
+        
+          <button
+            class="qty-btn"
+            onclick="decreaseQty(${index})">
+            -
+          </button>
+        
+          <span>${item.qty}</span>
+        
+          <button
+            class="qty-btn"
+            onclick="increaseQty(${index})">
+            +
+          </button>
+        
         </div>
 
         <button
