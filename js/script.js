@@ -1,5 +1,3 @@
-<script>
-
 let products = [];
 let selectedCategory = 'All';
 let cart = [];
@@ -230,4 +228,3 @@ function sendWhatsAppOrder() {
 
 }
 
-</script>
