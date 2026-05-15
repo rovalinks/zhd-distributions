@@ -42,14 +42,28 @@
 
 <section class="products" id="productsContainer"></section>
 
-<div class="floating-order" onclick="sendWhatsAppOrder()">
-  Order on WhatsApp
+<div class="floating-cart" onclick="toggleCart()">
+  🛒 Cart
+  <span id="cartCount">0</span>
 </div>
 
 <footer>
   © 2026 ZHD Distributions
 </footer>
 
+<div id="cartPanel" class="cart-panel">
+  <div class="cart-header">
+    <h2>Your Order</h2>
+    <button onclick="toggleCart()">✕</button>
+  </div>
+  
+  <div id="cartItems" class="cart-items"></div>
+  <button class="send-order-btn"
+    onclick="sendWhatsAppOrder()">
+    Send WhatsApp Order
+  </button>
+</div>
+  
 <script src="js/script.js"></script>
   
 <div id="toast">
