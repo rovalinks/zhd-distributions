@@ -278,7 +278,11 @@
               category: cols[2]?.trim(),
               brand: cols[3]?.trim(),
               pack: cols[4]?.trim(),
-              image: `images/${cols[1]?.trim().toLowerCase().replace(/ /g, '-')}.png`
+              image: `images/${cols[1]
+                      ?.trim()
+                      .toLowerCase()
+                      .replace(/[^a-z0-9]+/g, '-')
+                      }.png`
             };
           });
     
