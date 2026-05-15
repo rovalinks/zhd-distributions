@@ -325,3 +325,36 @@
      font-weight: bold;
      cursor: pointer;
    }
+
+   .cart-footer {
+     padding: 15px;
+     border-top: 1px solid #ddd;
+     background: #fafafa;
+   }
+   
+   .cart-summary {
+     margin-bottom: 12px;
+     font-weight: bold;
+     color: #005335;
+   }
+   
+   .clear-cart-btn {
+     width: 100%;
+     background: #d9534f;
+     color: white;
+     border: none;
+     padding: 12px;
+     border-radius: 8px;
+     cursor: pointer;
+     margin-bottom: 10px;
+   }
+   
+   .remove-btn {
+     margin-top: 8px;
+     background: #eee;
+     border: none;
+     padding: 6px 10px;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 12px;
+   }
