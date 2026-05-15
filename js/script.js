@@ -6,10 +6,27 @@ let cart =
 
 function toggleCart() {
 
-  document
-    .getElementById('cartPanel')
-    .classList
-    .toggle('open');
+  const cartPanel =
+    document.getElementById('cartPanel');
+
+  const overlay =
+    document.getElementById('overlay');
+
+  cartPanel.classList.toggle('open');
+
+  overlay.classList.toggle('show');
+
+  const categorySection =
+    document.querySelector('.category-buttons');
+
+  if(cartPanel.classList.contains('open')) {
+
+    categorySection.scrollBy({
+      left: 200,
+      behavior: 'smooth'
+    });
+
+  }
 
 }
 
