@@ -163,6 +163,7 @@ fetch('catalog/master_data.csv')
           category: cols[2]?.trim(),
           brand: cols[3]?.trim(),
           pack: cols[4]?.trim(),
+          stockStatus: cols[5]?.trim(),
 
           image: `images/${cols[1]
             ?.trim()
@@ -284,6 +285,16 @@ function renderProducts() {
         Pack: ${product.pack}
       </div>
 
+      <div class="
+        ${product.stockStatus === 'IN STOCK'
+          ? 'stock-in'
+          : 'stock-out'}
+      ">
+      
+        ● ${product.stockStatus}
+      
+      </div>
+
       <div class="qty-row">
 
         <input
@@ -296,8 +307,15 @@ function renderProducts() {
         <button
           class="add-btn"
           onclick="addToCart('${product.id}')"
-        >
-          Add
+        
+          ${product.stockStatus === 'OUT OF STOCK'
+            ? 'disabled'
+            : ''}  
+          >
+          ${product.stockStatus === 'OUT OF STOCK'
+            ? 'Out of Stock'
+            : 'Add'}
+        
         </button>
 
       </div>
