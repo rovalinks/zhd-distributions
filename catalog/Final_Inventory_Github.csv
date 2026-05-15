@@ -1,0 +1,138 @@
+Item ID,Item Name,Category,Brand,Pack Size
+1001,Plain Khakhra ,Khakhra,Jaimin,20x200g
+1002,Jeera Khakhra ,Khakhra,Jaimin,20x200g
+1003,Masala Khakhra ,Khakhra,Jaimin,20x200g
+1004,Methi Khakhra ,Khakhra,Jaimin,20x200g
+1005,Soya Stick ,Snacks,Jaimin,12x150g
+1006,Dryfruit Kachori ,Snacks,Jaimin,12x200g
+1007,Dryfruit Samosa ,Snacks,Jaimin,12x200g
+1008,Mini Bhakharwadi ,Snacks,Jaimin,12x200g
+1009,Farali Chevda ,Snacks,Jaimin,12x200g
+1010,Roasted Poha Chevda ,Snacks,Jaimin,12x200g
+1011,Bombay Mix ,Snacks,Jaimin,12x200g
+1012,Khatta Mitha ,Snacks,Jaimin,12x200g
+1013,Navratna Mix ,Snacks,Jaimin,12x200g
+1014,Dalmoth ,Snacks,Jaimin,12x200g
+1015,Jeera Puri ,Snacks,Jaimin,12x200g
+1016,Methi Puri ,Snacks,Jaimin,12x200g
+1017,Chat Puri ,Snacks,Jaimin,12x200g
+1018,Salted Boondi ,Snacks,Jaimin,12x200g
+1019,Palak Chakli ,Snacks,Jaimin,12x200g
+1020,Softy Chakli ,Snacks,Jaimin,12x200g
+1021,Sweet Para ,Snacks,Jaimin,12x200g
+1022,Methi Gathiya ,Snacks,Jaimin,12x200g
+1023,Fulwadi ,Snacks,Jaimin,12x200g
+1024,Thin Sev ,Snacks,Jaimin,12x200g
+1025,Chana Dal ,Snacks,Jaimin,12x200g
+1026,Pudina Moong ,Snacks,Jaimin,12x200g
+1027,Sev Mamra ,Snacks,Jaimin,12x200g
+1028,Murukku ,Snacks,Jaimin,12x200g
+1029,Banana Chips Pepper ,Snacks,Jaimin,12x175g
+1030,Banana Chips Masala ,Snacks,Jaimin,12x175g
+1031,Aloo Bhujia ,Snacks,Jaimin,12x200g
+1032,Aloo Bhujia Masala ,Snacks,Jaimin,12x200g
+1033,Puff Bites Mexican Salsa ,Snacks,Jaimin,24x80g
+1034,Puff Bites Mast Masala ,Snacks,Jaimin,24x80g
+1035,Puff Bites Lemon Chilli ,Snacks,Jaimin,24x80g
+1036,Fryums Masala Wheels ,Fryums,Jaimin,24x60g
+1037,Fryums Peri Peri ,Fryums,Jaimin,24x60g
+1038,Salted Chips ,Chips,Jaimin,12x100g
+1039,Masala Chips ,Chips,Jaimin,12x100g
+1040,Mexican chilli,Chips,Jaimin,12x100g
+1041,Tomato,Chips,Jaimin,12x100g
+1042,Jeera Khari ,Bakery,Jaimin,12x200g
+1043,Plain Khari ,Bakery,Jaimin,12x200g
+1044,Masala Twisted Khari ,Bakery,Jaimin,12x200g
+1045,Plain Khakra,Bakery,Jaimin,12x200g
+1046,Jeera Khakra,Bakery,Jaimin,12x200g
+1047,Methi Khakra,Bakery,Jaimin,12x200g
+1048,Masala Khakra,Bakery,Jaimin,12x200g
+1049,Green Chilli Papad ,Papad,Jaimin,20x200g
+1050,Black Pepper Papad ,Papad,Jaimin,20x200g
+1051,Pani Puri Kit ,Pani Puri,Jaimin,12pcs
+1052,Pani Puri ,Pani Puri,Jaimin,45pcs
+1053,Golgappa Fry ,Pani Puri,Jaimin,24x250g
+1054,Mango Pickle ,Pickles,Jaimin,6x400g
+1055,Garlic Pickle ,Pickles,Jaimin,6x400g
+1056,Lemon Pickle ,Pickles,Jaimin,6x400g
+1057,Mixed Pickle ,Pickles,Jaimin,6x400g
+1058,Poha Cup ,Ready Meals,Jaimin,12x100g
+1059,Upma Cup ,Ready Meals,Jaimin,12x90g
+1060,Veg Biryani Cup ,Ready Meals,Jaimin,20x200g
+1061,Dal Khichadi Cup ,Ready Meals,Jaimin,12x70g
+1062,Gujarati Dal Bhat,Ready Meals,Jaimin,20x200g
+1063,Bhaji Pav,Ready Meals,Jaimin,20x200g
+1064,Sabudhana Kichidi,Ready Meals,Jaimin,20x200g
+1065,Plain Roti ,Frozen,Fiesta,10x15x750g
+1066,Wheat Roti,Frozen,Fiesta,10x15x750g
+1067,Methi Roti ,Frozen,Fiesta,10x10x500g
+1068,Besan Roti ,Frozen,Fiesta,10x10x500g
+1069,Gujarati Roti ,Frozen,Fiesta,10x10x500g
+1070,Plain Rumali Roti ,Frozen,Fiesta,10x10x500g
+1071,Wheat Rumali Roti ,Frozen,Fiesta,10x10x500g
+1072,Plain Naan ,Frozen,Fiesta,10x10x500g
+1073,Garlic Naan ,Frozen,Fiesta,10x10x500g
+1074,Krunch Naan ,Frozen,Fiesta,6x12x85g
+1075,Krunch Garlic Naan ,Frozen,Fiesta,6x12x85g
+1076,Krunch Garlic Naan ,Frozen,Fiesta,6x12x85g
+1077,Krunch Whole Wheat Naan ,Frozen,Fiesta,6x12x85g
+1078,Krunch pita,Frozen,Fiesta,9x7x322g
+1079,Crispy Tandoori naan,Frozen,Fiesta,6x12x85g
+1080,Crispy Tandoori Garlic naan,Frozen,Fiesta,6x12x85g
+1081,Vada Pav 12x600g,Frozen,Fiesta,12x600g
+1082,Pav Bhaji 12x600g,Frozen,Fiesta,12x600g
+1083,Kurkure Masala Munch ,Snacks,Fiesta,30x50g
+1084,Kurkure Naughty Tomato ,Snacks,Fiesta,30x50g
+1085,Kurkure Red Chilli Chatka ,Snacks,Fiesta,30x50g
+1086,Kurkure Solid Masti ,Snacks,Fiesta,30x50g
+1087,Kurkure Green Chutney ,Snacks,Fiesta,30x50g
+1088,Lays Magic Masala ,Snacks,Fiesta,30x50g
+1089,Lays Spanish Tomato ,Snacks,Fiesta,30x50g
+1090,Lays Chilli Lemon ,Snacks,Fiesta,30x50g
+1091,Lays Classic Salted ,Snacks,Fiesta,30x50g
+1092,Uncle Chips Spicy Treat ,Snacks,Fiesta,30x50g
+1093,Maggi Noodles ,Grocery,Nestle,96x70g
+1094,Maggi Noodles ,Grocery,Nestle,24x280g
+1095,Maggi Noodles ,Grocery,Nestle,12x560g
+1096,Maggi Coconut Milk Powder ,Grocery,Nestle,24x300g
+1097,Maggi Coconut Milk Powder ,Grocery,Nestle,12x1kg
+1098,Tata Salt ,Grocery,Tata,12x1kg
+1099,Tata Tea Gold ,Grocery,Tata,16x450g
+1100,Tata Premium Tea ,Grocery,Tata,16x450g
+1101,Tata Tea Jar ,Grocery,Tata,16x400g
+1102,Tata Tea Bags Elaichi ,Grocery,Tata,12x50pc
+1103,Tata Tea Bags Ginger ,Grocery,Tata,12x50pc
+1104,Tata Tea Bags Masala ,Grocery,Tata,12x50pc
+1105,Red Label ,Grocery,Red Label,12x1kg
+1106,Taj Mahal ,Grocery,Red Label,12x1kg
+1107,Hyper Malt Can ,Drinks,Fiesta,24x330ml
+1108,Mirinda Can ,Drinks,Fiesta,24x330ml
+1109,Ginger Beer ,Drinks,Fiesta,24x330ml
+1110,Sweeto Worms ,Confectionery,Sweeto,12x80g
+1111,Sweeto Cherry ,Confectionery,Sweeto,12x80g
+1112,Sweeto Sour Rings ,Confectionery,Sweeto,12x80g
+1113,Sweeto Sour Strawberry ,Confectionery,Sweeto,12x80g
+1114,Sweeto Sour Rainbow ,Confectionery,Sweeto,12x80g
+1115,Sweeto Unicorn ,Confectionery,Sweeto,12x80g
+1116,Sweeto Bear ,Confectionery,Sweeto,12x80g
+1117,Sweeto Tangy ,Confectionery,Sweeto,12x80g
+1118,Sweeto Grape ,Confectionery,Sweeto,12x80g
+1119,Sweeto Rainbow Belts (Extra Sour) ,Confectionery,Sweeto,12x80g
+1120,Sweeto Cola ,Confectionery,Sweeto,12x80g
+1121,Sweeto Marshmallow Cube ,Confectionery,Sweeto,12x140g
+1122,Sweeto Marshmallow Pink&White ,Confectionery,Sweeto,12x140g
+1123,Sweeto Marshmallow Watermelon ,Confectionery,Sweeto,12x140g
+1124,Sweeto Marshmallow Roller ,Confectionery,Sweeto,12x140g
+1125,Sweeto Marshmallow Heart ,Confectionery,Sweeto,12x140g
+1126,Sweeto Marshmallow Twist ,Confectionery,Sweeto,12x140g
+1127,Sweeto Marshmallow Flora ,Confectionery,Sweeto,12x140g
+1128,Sweeto Marshmallow Unicorn ,Confectionery,Sweeto,12x140g
+1129,Sweeto Marshmallow Strawberry ,Confectionery,Sweeto,12x140g
+1130,Sweeto Marshmallow Twister ,Confectionery,Sweeto,36x4x20g
+1131,Dawat Basmati Rice ,Rice,Dawat,20kg
+1132,Dawat Basmati Rice ,Rice,Dawat,10kg
+1133,Dawat Basmati Rice ,Rice,Dawat,5kg
+1134,Mom Made Plain Paratha ,Frozen,Mom,20x4x400g
+1135,Mom Made Spicy Paratha ,Frozen,Mom,20x4x400g
+1136,Mom Made Methi Paratha ,Frozen,Mom,20x4x400g
+1137,Mom Made Missi Roti ,Frozen,Mom,20x4x400g
