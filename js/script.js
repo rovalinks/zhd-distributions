@@ -268,7 +268,5 @@ function sendWhatsAppOrder() {
     '_blank'
   );
 
-  }
-
 }
 
