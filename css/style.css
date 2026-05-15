@@ -358,3 +358,21 @@
      cursor: pointer;
      font-size: 12px;
    }
+
+   .cart-item-qty-controls {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-top: 8px;
+   }
+   
+   .qty-btn {
+     width: 28px;
+     height: 28px;
+     border: none;
+     background: #005335;
+     color: white;
+     border-radius: 6px;
+     cursor: pointer;
+     font-weight: bold;
+   }
