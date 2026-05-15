@@ -2,6 +2,49 @@ let products = [];
 let selectedCategory = 'All';
 let cart = [];
 
+function toggleCart() {
+
+  document
+    .getElementById('cartPanel')
+    .classList
+    .toggle('open');
+
+}
+
+function updateCartUI() {
+
+  const cartItems =
+    document.getElementById('cartItems');
+
+  const cartCount =
+    document.getElementById('cartCount');
+
+  cartItems.innerHTML = '';
+
+  cartCount.innerText = cart.length;
+
+  cart.forEach((item, index) => {
+
+    cartItems.innerHTML += `
+
+      <div class="cart-item">
+
+        <div class="cart-item-name">
+          ${item.name}
+        </div>
+
+        <div class="cart-item-qty">
+          Qty: ${item.qty}
+        </div>
+
+      </div>
+
+    `;
+
+  });
+
+}
+
 const productsContainer = document.getElementById('productsContainer');
 const searchInput = document.getElementById('searchInput');
 
@@ -173,7 +216,6 @@ function renderProducts() {
 searchInput.addEventListener('input', renderProducts);
 
 function addToCart(index) {
-
   const qty =
     document.getElementById(`qty-${index}`).value;
 
@@ -181,9 +223,9 @@ function addToCart(index) {
     ...products[index],
     qty
   });
-
+  
+  updateCartUI();
   showToast();
-
 }
 
 function showToast() {
@@ -225,6 +267,8 @@ function sendWhatsAppOrder() {
     `https://wa.me/${phone}?text=${message}`,
     '_blank'
   );
+
+  }
 
 }
 
