@@ -1,6 +1,8 @@
 let products = [];
 let selectedCategory = 'All';
-let cart = [];
+let cart =
+  JSON.parse(localStorage.getItem('zhd_cart'))
+  || [];
 
 function toggleCart() {
 
@@ -19,11 +21,18 @@ function updateCartUI() {
   const cartCount =
     document.getElementById('cartCount');
 
+  const cartSummary =
+    document.getElementById('cartSummary');
+
   cartItems.innerHTML = '';
 
   cartCount.innerText = cart.length;
 
+  let totalQty = 0;
+
   cart.forEach((item, index) => {
+
+    totalQty += parseInt(item.qty);
 
     cartItems.innerHTML += `
 
@@ -37,13 +46,44 @@ function updateCartUI() {
           Qty: ${item.qty}
         </div>
 
+        <button
+          class="remove-btn"
+          onclick="removeFromCart(${index})"
+        >
+          Remove
+        </button>
+
       </div>
 
-    `;
+      `;
+  
+    });
+  
+    cartSummary.innerText =
+      `${totalQty} Products Added`;
+  
+    localStorage.setItem(
+      'zhd_cart',
+      JSON.stringify(cart)
+    );
+  
+  }
 
-  });
+  function removeFromCart(index) {
+  
+    cart.splice(index, 1);
+  
+    updateCartUI();
+  
+  }
 
-}
+  function clearCart() {
+  
+    cart = [];
+  
+    updateCartUI();
+  
+  }
 
 const productsContainer = document.getElementById('productsContainer');
 const searchInput = document.getElementById('searchInput');
@@ -290,3 +330,4 @@ function sendWhatsAppOrder() {
 
 }
 
+updateCartUI();
