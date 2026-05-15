@@ -92,8 +92,20 @@
 
     .category-buttons {
       display: flex;
-      flex-wrap: wrap;
       gap: 10px;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 5px;
+      scrollbar-width: thin;
+    }
+    
+    .category-buttons::-webkit-scrollbar {
+      height: 6px;
+    }
+    
+    .category-buttons::-webkit-scrollbar-thumb {
+      background: #005335;
+      border-radius: 10px;
     }
 
     .category-btn {
