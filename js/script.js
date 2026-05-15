@@ -91,6 +91,32 @@ function updateCartUI() {
   
   }
 
+function increaseQty(index) {
+
+  cart[index].qty =
+    parseInt(cart[index].qty) + 1;
+
+  updateCartUI();
+
+}
+
+function decreaseQty(index) {
+
+  if(cart[index].qty > 1) {
+
+    cart[index].qty =
+      parseInt(cart[index].qty) - 1;
+
+  } else {
+
+    cart.splice(index, 1);
+
+  }
+
+  updateCartUI();
+
+}
+
   function clearCart() {
   
     cart = [];
