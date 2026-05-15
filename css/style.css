@@ -376,3 +376,19 @@
      cursor: pointer;
      font-weight: bold;
    }
+
+   .overlay {
+     position: fixed;
+     inset: 0;
+     background: rgba(0,0,0,0.35);
+     opacity: 0;
+     pointer-events: none;
+     transition: opacity 0.3s ease;
+     z-index: 1500;
+     backdrop-filter: blur(2px);
+   }
+   
+   .overlay.show {
+     opacity: 1;
+     pointer-events: auto;
+   }
