@@ -1,0 +1,171 @@
+Item ID,Item Name,Category,Brand,Pack Size,Stock Status
+1001,Coconut Chikki,Snacks,Jaimin,24x150g,IN STOCK
+1002,Sesame Chikki,Snacks,Jaimin,24x150g,IN STOCK
+1003,Dry Fruit Chikki,Snacks,Jaimin,24x150g,IN STOCK
+1004,Jaggery Powder,Jaggery,Jaimin,6x1kg,IN STOCK
+1005,Banana Chips Pepper,Snacks,Jaimin,12x175g,IN STOCK
+1006,Banana Chips Yellow,Snacks,Jaimin,12x175g,IN STOCK
+1007,Banana Chips Masala,Snacks,Jaimin,12x175g,IN STOCK
+1008,Palak Chakli,Snacks,Jaimin,12x200g,IN STOCK
+1009,Softy Chakli,Snacks,Jaimin,12x200g,IN STOCK
+1010,Murukku,Snacks,Jaimin,12x200g,IN STOCK
+1011,Soya Stick,Snacks,Jaimin,12x150g,IN STOCK
+1012,Sweet Para,Snacks,Jaimin,12x200g,IN STOCK
+1013,Fulwadi,Snacks,Jaimin,12x200g,IN STOCK
+1014,Sev Mamra,Snacks,Jaimin,12x200g,IN STOCK
+1015,Rathlami Sev,Snacks,Jaimin,12x200g,IN STOCK
+1016,Thin Sev,Snacks,Jaimin,12x200g,IN STOCK
+1017,Dry Fruit Samosa,Snacks,Jaimin,12x200g,IN STOCK
+1018,Dry Fruit Kachori,Snacks,Jaimin,12x200g,IN STOCK
+1019,Methi Gathiya,Snacks,Jaimin,12x200g,IN STOCK
+1020,Chat Puri,Snacks,Jaimin,12x200g,IN STOCK
+1021,Jeera Puri,Snacks,Jaimin,12x200g,IN STOCK
+1022,Methi Puri,Snacks,Jaimin,12x200g,IN STOCK
+1023,Khatta Mitha,Snacks,Jaimin,12x200g,IN STOCK
+1024,Mini Bhakharwadi,Snacks,Jaimin,12x200g,IN STOCK
+1025,Rajwadi Bhakharwadi,Snacks,Jaimin,12x200g,IN STOCK
+1026,Aloo Bhujia Masala,Snacks,Jaimin,12x200g,IN STOCK
+1027,Aloo Bhujia,Snacks,Jaimin,12x200g,IN STOCK
+1028,Bhavnagari Gathiya,Snacks,Jaimin,12x200g,IN STOCK
+1029,Roasted Poha Chevda,Snacks,Jaimin,12x200g,IN STOCK
+1030,Tikha Farali Chevda,Snacks,Jaimin,12x200g,IN STOCK
+1031,Farali Chevda,Snacks,Jaimin,12x200g,IN STOCK
+1032,Bombay Mix,Snacks,Jaimin,12x200g,IN STOCK
+1033,Bhel Puri Mix,Snacks,Jaimin,12x200g,IN STOCK
+1034,Navratna Mix,Snacks,Jaimin,12x200g,IN STOCK
+1035,Manglori Mix,Snacks,Jaimin,12x200g,IN STOCK
+1036,Roasted Lime & Mint Chana,Snacks,Jaimin,12x200g,IN STOCK
+1037,Roasted Black Pepper Chana,Snacks,Jaimin,12x200g,IN STOCK
+1038,Moong Dal,Snacks,Jaimin,12x200g,IN STOCK
+1039,Pudina Moong,Snacks,Jaimin,12x200g,IN STOCK
+1040,Chana Jor,Snacks,Jaimin,12x200g,IN STOCK
+1041,Chana Dal,Snacks,Jaimin,12x200g,IN STOCK
+1042,Dalmoth,Snacks,Jaimin,12x200g,IN STOCK
+1043,Salted Boondi,Snacks,Jaimin,12x200g,IN STOCK
+1044,Tutty Fruity Rusk,Bakery,Jaimin,12x200g,IN STOCK
+1045,Funeral Rusk,Bakery,Jaimin,12x200g,IN STOCK
+1046,Suji Rusk,Bakery,Jaimin,12x200g,IN STOCK
+1047,Plain Khari,Bakery,Jaimin,12x200g,IN STOCK
+1048,Jeera Khari,Bakery,Jaimin,12x200g,IN STOCK
+1049,Masala Twisted Khari,Bakery,Jaimin,12x200g,IN STOCK
+1050,Plain Khakra,Bakery,Jaimin,20x200g,IN STOCK
+1051,Jeera Khakra,Bakery,Jaimin,20x200g,IN STOCK
+1052,Methi Khakra,Bakery,Jaimin,20x200g,IN STOCK
+1053,Masala Khakra,Bakery,Jaimin,20x200g,IN STOCK
+1054,Phool Makhana,Makhana,Jaimin,12x80g,IN STOCK
+1055,Makhana Peri Peri,Makhana,Jaimin,12x80g,IN STOCK
+1056,Makhana Magic Masala,Makhana,Jaimin,12x80g,IN STOCK
+1057,Makhana Salt and Pepper,Makhana,Jaimin,12x80g,IN STOCK
+1058,Bombay Bhel,Snacks,Jaimin,8x500g,IN STOCK
+1059,Nylon Sev,Snacks,Jaimin,8x1kg,IN STOCK
+1060,Chat Puri,Snacks,Jaimin,8x500g,IN STOCK
+1061,Golgappa,Pani Puri,Jaimin,24x200g,IN STOCK
+1062,Pani Puri Kit,Pani Puri,Jaimin,12x270g,IN STOCK
+1063,Pani Puri 45 pcs,Pani Puri,Jaimin,12 pkts,IN STOCK
+1064,Puffed Rice,Puffed Rice,Jaimin,10x400g,IN STOCK
+1065,Kolapuri Puffed Rice,Puffed Rice,Jaimin,10x400g,IN STOCK
+1066,Potato Chips Masala,Chips,Jaimin,12x100g,IN STOCK
+1067,Potato Chips Tomato,Chips,Jaimin,12x100g,IN STOCK
+1068,Potato Chips Mexican chilli,Chips,Jaimin,12x100g,IN STOCK
+1069,Potato Chips Salted,Chips,Jaimin,12x100g,IN STOCK
+1070,Dawat Basmati Rice,Rice,Dawat,20kg,IN STOCK
+1071,Dawat Basmati Rice,Rice,Dawat,10kg,OUT OF STOCK
+1072,Dawat Basmati Rice,Rice,Dawat,5kg,OUT OF STOCK
+1073,Lays Hot & Sweet Chilli,Chips,Lays,30 pkt,IN STOCK
+1074,Lays Sizzling Hot,Chips,Lays,30 pkt,IN STOCK
+1075,Lays Spanish Tomato,Chips,Lays,30 pkt,IN STOCK
+1076,Lays Classic Salted,Chips,Lays,30 pkt,IN STOCK
+1077,Lays Magic Masala,Chips,Lays,30 pkt,IN STOCK
+1078,Lays Chilli Lemon,Chips,Lays,30 pkt,IN STOCK
+1079,Lays Uncle Chips,Chips,Lays,30 pkt,IN STOCK
+1080,Kurkure Solid Masti,Chips,Kurkure,30 pkt,IN STOCK
+1081,Kurkure Chilli Cahtka,Chips,Kurkure,30 pkt,IN STOCK
+1082,Kurkure Schezwan Chutney,Chips,Kurkure,30 pkt,IN STOCK
+1083,Kurkure Masala Munch,Chips,Kurkure,30 pkt,IN STOCK
+1084,Kurkure Green Chutney Style,Chips,Kurkure,30 pkt,IN STOCK
+1085,Kurkure Naughy Tomato,Chips,Kurkure,30 pkt,IN STOCK
+1086,Kurkure Puffcorn,Chips,Kurkure,30 pkt,IN STOCK
+1087,Kwality Ghee,Ghee,Kwality,6x1kg,IN STOCK
+1088,Kwality Ghee,Ghee,Kwality,6x500g,IN STOCK
+1089,Kwality Ghee,Ghee,Kwality,6x200g,IN STOCK
+1090,Kesar Mango Pulp,Mango,Jaimin,6x1kg,IN STOCK
+1091,Alphonzo Mango Pulp,Mango,Jaimin,6x1kg,IN STOCK
+1092,Tata Tea Bags Elaichi,Grocery,Tata,12x50pc,IN STOCK
+1093,Tata Tea Bags Ginger,Grocery,Tata,12x50pc,IN STOCK
+1094,Tata Tea Bags Masala,Grocery,Tata,12x50pc,IN STOCK
+1095,Tata Tea Gold,Grocery,Tata,16x450g,IN STOCK
+1096,Tata Tea Premium,Grocery,Tata,16x450g,IN STOCK
+1097,Tata Tea Jar,Grocery,Tata,16x400g,IN STOCK
+1098,Red Label,Grocery,Red Label,12x1kg,IN STOCK
+1099,Taj Mahal,Grocery,Taj Mahal,12x1kg,IN STOCK
+1100,Tata Salt,Grocery,Tata,12x1kg,IN STOCK
+1101,Hyper Malt Can - 24x330ml,Drinks,Fiesta,24x330ml,IN STOCK
+1102,Mirinda Can - 24x330ml,Drinks,Fiesta,24x330ml,IN STOCK
+1103,Ginger Beer - 24x330ml,Drinks,Fiesta,24x330ml,IN STOCK
+1104,Maggi Noodles,Grocery,Nestle,96x70g,IN STOCK
+1105,Maggi Noodles,Grocery,Nestle,24x280g,IN STOCK
+1106,Maggi Noodles,Grocery,Nestle,12x560g,IN STOCK
+1107,Maggi Coconut Milk Powder,Grocery,Nestle,24x300g,IN STOCK
+1108,Maggi Coconut Milk Powder,Grocery,Nestle,12x1kg,IN STOCK
+1109,Mom Made Plain Paratha,Frozen,Mom,20x4x400g,IN STOCK
+1110,Mom Made Spicy Paratha,Frozen,Mom,20x4x400g,IN STOCK
+1111,Mom Made Methi Paratha,Frozen,Mom,20x4x400g,IN STOCK
+1112,Mom Made Missi Roti,Frozen,Mom,20x4x400g,IN STOCK
+1113,Mango Pickle,Pickles,Jaimin,6x400g,IN STOCK
+1114,Garlic Pickle,Pickles,Jaimin,6x400g,IN STOCK
+1115,Lemon Pickle,Pickles,Jaimin,6x400g,IN STOCK
+1116,Mixed Pickle,Pickles,Jaimin,6x400g,IN STOCK
+1117,Crispy Plain Roti,Roti,Frozen,10x10x500g,IN STOCK
+1118,Crispy Whole Wheat Roti,Roti,Frozen,10x10x500g,IN STOCK
+1119,Crispy Methi Roti,Roti,Frozen,10x10x500g,IN STOCK
+1120,Crispy Besan Roti,Roti,Frozen,10x10x500g,IN STOCK
+1121,Rumali Plain Roti,Roti,Frozen,10x10x600g,IN STOCK
+1122,Rumali Wheat Roti,Roti,Frozen,10x10x600g,IN STOCK
+1123,Crispy Plain Naan,Naan,Frozen,10x10x500g,IN STOCK
+1124,Crispy Garlic Naan,Naan,Frozen,10x10x500g,IN STOCK
+1125,Krunch Naan,Naan,Frozen,6x6x85g,IN STOCK
+1126,Krunch Garlic Naan,Naan,Frozen,6x6x85g,IN STOCK
+1127,Krunch Whole Wheat Naan,Naan,Frozen,6x6x85g,IN STOCK
+1128,Krunch pita,Naan,Frozen,12x7x322g,IN STOCK
+1129,Gujarati Roti,Frozen,Frozen,10x10x500g,IN STOCK
+1130,Dabeli Buns,Bun,Frozen,12x500g,IN STOCK
+1131,Pav Bhaji Buns,Bun,Frozen,12x500g,IN STOCK
+1132,Vada Pav Buns,Bun,Frozen,12x600g,IN STOCK
+1133,Poha Cup,Ready Meals,Jaimin,12x100g,IN STOCK
+1134,Upma Cup,Ready Meals,Jaimin,12x90g,IN STOCK
+1135,Veg Biryani Cup,Ready Meals,Jaimin,20x200g,IN STOCK
+1136,Dal Khichadi Cup,Ready Meals,Jaimin,12x70g,IN STOCK
+1137,Gujarati Dal Bhat,Ready Meals,Jaimin,20x200g,IN STOCK
+1138,Bhaji Pav,Ready Meals,Jaimin,20x200g,IN STOCK
+1139,Sabudhana Kichidi,Ready Meals,Jaimin,20x200g,IN STOCK
+1140,Sweeto Worms,Confectionery,Sweeto,12x80g,IN STOCK
+1141,Sweeto Cherry,Confectionery,Sweeto,12x80g,IN STOCK
+1142,Sweeto Sour Rings,Confectionery,Sweeto,12x80g,IN STOCK
+1143,Sweeto Sour Strawberry,Confectionery,Sweeto,12x80g,IN STOCK
+1144,Sweeto Sour Rainbow,Confectionery,Sweeto,12x80g,IN STOCK
+1145,Sweeto Unicorn,Confectionery,Sweeto,12x80g,IN STOCK
+1146,Sweeto Bear,Confectionery,Sweeto,12x80g,IN STOCK
+1147,Sweeto Tangy,Confectionery,Sweeto,12x80g,IN STOCK
+1148,Sweeto Grape,Confectionery,Sweeto,12x80g,IN STOCK
+1149,Sweeto Rainbow Belts (Extra Sour),Confectionery,Sweeto,12x80g,IN STOCK
+1150,Sweeto Cola,Confectionery,Sweeto,12x80g,IN STOCK
+1151,Sweeto Marshmallow Cube,Confectionery,Sweeto,12x140g,IN STOCK
+1152,Sweeto Marshmallow Pink&White,Confectionery,Sweeto,12x140g,IN STOCK
+1153,Sweeto Marshmallow Watermelon,Confectionery,Sweeto,12x140g,IN STOCK
+1154,Sweeto Marshmallow Roller,Confectionery,Sweeto,12x140g,IN STOCK
+1155,Sweeto Marshmallow Heart,Confectionery,Sweeto,12x140g,IN STOCK
+1156,Sweeto Marshmallow Twist,Confectionery,Sweeto,12x140g,IN STOCK
+1157,Sweeto Marshmallow Flora,Confectionery,Sweeto,12x140g,IN STOCK
+1158,Sweeto Marshmallow Unicorn,Confectionery,Sweeto,12x140g,IN STOCK
+1159,Sweeto Marshmallow Strawberry,Confectionery,Sweeto,12x140g,IN STOCK
+1160,Sweeto Marshmallow Twister,Confectionery,Sweeto,36x4x20g,IN STOCK
+1161,Green Chilli Papad,Papad,Jaimin,20x200g,OUT OF STOCK
+1162,Black Pepper Papad,Papad,Jaimin,20x200g,OUT OF STOCK
+1163,Puff Bites Mexican Salsa,Snacks,Jaimin,24x80g,OUT OF STOCK
+1164,Puff Bites Mast Masala,Snacks,Jaimin,24x80g,OUT OF STOCK
+1165,Puff Bites Lemon Chilli,Snacks,Jaimin,24x80g,OUT OF STOCK
+1166,Fryums Masala Wheels,Fryums,Jaimin,24x60g,OUT OF STOCK
+1167,Fryums Peri Peri,Fryums,Jaimin,24x60g,OUT OF STOCK
+1168,Crispy Fruit Cake,Bakery,Fiesta,12X380g,IN STOCK
+1169,Crispy Fruit Cake - Eggless,Bakery,Fiesta,12X380g,OUT OF STOCK
+1170,Crispy Cake Rusk,Bakery,Fiesta,14X650g,IN STOCK
