@@ -132,27 +132,21 @@ function generateCategories() {
 
 // Fallback logic for case sensitivity and multiple extensions
 function tryNextImageExtension(imgElement, lowerBase, rawBase) {
-  // Array of possible extensions AND possible capitalizations
+  // We already tried lowerBase + .png in the HTML.
+  // Now we only check the 3 remaining possibilities.
   const attempts = [
-    `${lowerBase}.jpg`,
-    `${lowerBase}.jpeg`,
-    `${lowerBase}.PNG`,
-    `${lowerBase}.JPG`,
-    `${lowerBase}.JPEG`,
-    `${rawBase}.png`,   
-    `${rawBase}.jpg`,
-    `${rawBase}.jpeg`,
-    `${rawBase}.PNG`,
-    `${rawBase}.JPG`,
-    `${rawBase}.JPEG`
+    `${lowerBase}.jpeg`, // Lowercase name with .jpeg
+    `${rawBase}.png`,    // Exact case name with .png
+    `${rawBase}.jpeg`    // Exact case name with .jpeg
   ];
   
   let attemptCount = parseInt(imgElement.dataset.attempt || 0);
 
   if (attemptCount < attempts.length) {
-    // Increment the attempt counter first
+    // Increment the attempt counter
     imgElement.dataset.attempt = attemptCount + 1;
-    // Try the next image in the list
+    
+    // Try the next image in our short list
     imgElement.src = attempts[attemptCount];
   } else {
     // CRITICAL FIX: Remove the onerror handler so it doesn't loop!
