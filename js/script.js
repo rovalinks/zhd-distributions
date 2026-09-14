@@ -132,14 +132,14 @@ function generateCategories() {
 
 // Fallback logic for case sensitivity and multiple extensions
 function tryNextImageExtension(imgElement, lowerBase, rawBase) {
-  // Array of possible extensions AND possible capitalizations of the filename itself
+  // Array of possible extensions AND possible capitalizations
   const attempts = [
     `${lowerBase}.jpg`,
     `${lowerBase}.jpeg`,
     `${lowerBase}.PNG`,
     `${lowerBase}.JPG`,
     `${lowerBase}.JPEG`,
-    `${rawBase}.png`,   // Trying exact casing as it appeared in CSV
+    `${rawBase}.png`,   
     `${rawBase}.jpg`,
     `${rawBase}.jpeg`,
     `${rawBase}.PNG`,
@@ -150,10 +150,15 @@ function tryNextImageExtension(imgElement, lowerBase, rawBase) {
   let attemptCount = parseInt(imgElement.dataset.attempt || 0);
 
   if (attemptCount < attempts.length) {
-    imgElement.src = attempts[attemptCount];
+    // Increment the attempt counter first
     imgElement.dataset.attempt = attemptCount + 1;
+    // Try the next image in the list
+    imgElement.src = attempts[attemptCount];
   } else {
-    // If all possible combinations fail, use the placeholder
+    // CRITICAL FIX: Remove the onerror handler so it doesn't loop!
+    imgElement.onerror = null; 
+    
+    // Set the final fallback placeholder
     imgElement.src = 'images/placeholder.png';
   }
 }
