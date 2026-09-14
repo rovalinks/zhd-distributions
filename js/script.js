@@ -86,9 +86,10 @@ fetch('catalog/master_data.csv')
         const cols = row.split(',');
         const rawName = cols[1]?.trim();
         
-        // Setup lower case formatting and case-sensitive formatting
+        // Setup lower case, exact case, and uppercase formatting
         const lowerFormatted = rawName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
         const rawFormatted = rawName.replace(/[^a-zA-Z0-9]+/g, '-');
+        const upperFormatted = rawName.toUpperCase().replace(/[^A-Z0-9]+/g, '-');
 
         return {
           id: cols[0]?.trim(),
@@ -98,10 +99,11 @@ fetch('catalog/master_data.csv')
           pack: cols[4]?.trim(),
           stockStatus: cols[5]?.trim(),
 
-          // Provide the first image to try, and both base names for the fallback loop
+          // Provide the base names for the fallback loop
           image: `images/${lowerFormatted}.png`,
           lowerBase: `images/${lowerFormatted}`,
-          rawBase: `images/${rawFormatted}`
+          rawBase: `images/${rawFormatted}`,
+          upperBase: `images/${upperFormatted}`
         };
       });
 
@@ -130,14 +132,16 @@ function generateCategories() {
   });
 }
 
-// Fallback logic for case sensitivity and multiple extensions
-function tryNextImageExtension(imgElement, lowerBase, rawBase) {
+// Fallback logic for case sensitivity and limited extensions
+function tryNextImageExtension(imgElement, lowerBase, rawBase, upperBase) {
   // We already tried lowerBase + .png in the HTML.
-  // Now we only check the 3 remaining possibilities.
+  // Now we check the remaining exact, lower, and upper combinations.
   const attempts = [
     `${lowerBase}.jpeg`, // Lowercase name with .jpeg
     `${rawBase}.png`,    // Exact case name with .png
-    `${rawBase}.jpeg`    // Exact case name with .jpeg
+    `${rawBase}.jpeg`,   // Exact case name with .jpeg
+    `${upperBase}.png`,  // ALL CAPS name with .png
+    `${upperBase}.jpeg`  // ALL CAPS name with .jpeg
   ];
   
   let attemptCount = parseInt(imgElement.dataset.attempt || 0);
@@ -176,12 +180,12 @@ function renderProducts() {
     const card = document.createElement('div');
     card.className = 'product-card';
     
-    // We pass lowerBase and rawBase into the onerror function
+    // Pass lowerBase, rawBase, and upperBase into the onerror function
     card.innerHTML = `
       <div class="product-image">
         <img
           src="${product.image}"
-          onerror="tryNextImageExtension(this, '${product.lowerBase}', '${product.rawBase}')"
+          onerror="tryNextImageExtension(this, '${product.lowerBase}', '${product.rawBase}', '${product.upperBase}')"
           alt="${product.name}"
           style="width:100%; height:100%; object-fit:contain; border-radius:10px;"
         >
